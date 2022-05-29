@@ -1,40 +1,45 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-let color = new Set();
-color.add('Yellow');
-color.add('Pink');
-color.add('White');
-color.add('Purple');
+let colortest = new Set();
+colortest.add('Yellow');
+colortest.add('Pink');
+colortest.add('White');
+colortest.add('Purple');
 
-let color2 = new Set();
-color2.add('Blue');
-color2.add('Black');
-color2.add('Grey');
+let color2test = new Set();
+color2test.add('Blue');
+color2test.add('Black');
+color2test.add('Grey');
 
-let favRestaurant = new Set();
-favRestaurant.add('Bento');
-favRestaurant.add('Sushi');
-favRestaurant.add('Pancake');
-favRestaurant.add('Eggy');
-favRestaurant.add('Tempura');
-favRestaurant.add('Bento');
-favRestaurant.add('Eggy');
-favRestaurant.add('Padang');
-favRestaurant.add('Tteok');
-favRestaurant.add('Sushi');
-favRestaurant.add('Sushi');
+let favRestauranttest = new Set();
+favRestauranttest.add('Bento');
+favRestauranttest.add('Sushi');
+favRestauranttest.add('Pancake');
+favRestauranttest.add('Eggy');
+favRestauranttest.add('Tempura');
+favRestauranttest.add('Bento');
+favRestauranttest.add('Eggy');
+favRestauranttest.add('Padang');
+favRestauranttest.add('Tteok');
+favRestauranttest.add('Sushi');
+favRestauranttest.add('Sushi');
 
-let favRestaurant2 = new Set();
-favRestaurant2.add('Tempura');
-favRestaurant2.add('Bento');
-favRestaurant2.add('Sushi');
-favRestaurant2.add('Pancake');
-favRestaurant2.add('Padang');
-favRestaurant2.add('Katsu');
-favRestaurant2.add('Geprek');
-favRestaurant2.add('Pancake');
-favRestaurant2.add('Eggy');
+let favRestaurant2test = new Set();
+favRestaurant2test.add('Tempura');
+favRestaurant2test.add('Bento');
+favRestaurant2test.add('Sushi');
+favRestaurant2test.add('Pancake');
+favRestaurant2test.add('Padang');
+favRestaurant2test.add('Katsu');
+favRestaurant2test.add('Geprek');
+favRestaurant2test.add('Pancake');
+favRestaurant2test.add('Eggy');
+
+const color = Array.from(colortest);
+const color2 = Array.from(color2test);
+const favRestaurant = Array.from(favRestauranttest);
+const favRestaurant2 = Array.from(favRestaurant2test);
 
 
 const firstUser = {
